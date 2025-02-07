@@ -12,7 +12,11 @@ visualizer = ArrayVisualizer()
 SPACE_SIZE = 600
 
 # CAのバイナリコーディングされたルール (Wolfram code)
-RULE = 30
+# RULE = 30
+RULE = 60 #クラス
+#クラス４：空間的、時間的に局在する構造を持つパターンを作る
+# RULE = 110
+# RULE = 57
 
 # CAの状態空間
 state = np.zeros(SPACE_SIZE, dtype=np.int8)
